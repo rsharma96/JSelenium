@@ -38,7 +38,7 @@ To get the configuration of git on local
 
 git config --list
 
-https://github.com/rsharma96/JSelenium/blob/master/resources/intellijidea.jpg
+![alt text](https://github.com/rsharma96/JSelenium/blob/master/resources/intellijidea.jpg)
 
 
 
