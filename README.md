@@ -38,5 +38,9 @@ To get the configuration of git on local
 
 git config --list
 
+To add screenshot in README.md 
+
+![alt text](https://github.com/rsharma96/JSelenium/blob/master/resources/intellijidea.jpg)
+
 
 
