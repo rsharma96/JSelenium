@@ -9,7 +9,7 @@ public class SecurityTest {
 
     public static void main(String args[]){
 
-        String uname = Security.encryt("rajeshwar96");
+        String uname = Security.encryt("rsharma96");
         System.out.println(uname);
 
         Security.decryt(uname);
