@@ -4,7 +4,6 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -27,7 +26,7 @@ public class CaptureScreenshot {
 
         FileUtils.copyFile(scr,
                 new File("/Users/gaurnitai/Documents/SeleniumJava/" +
-                        "IDEAJava/JSelenium/screenshots/"+System.currentTimeMillis()+".jpeg"));
+                        "IDEAJava/JSelenium/screenshots/" + System.currentTimeMillis() + ".jpeg"));
 
 
     }
