@@ -13,7 +13,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by gaurnitai on 2017-09-19.
+ * Created by rsharma96 on 2017-09-19.
  */
 public class CaptureScreenshotTest {
 
