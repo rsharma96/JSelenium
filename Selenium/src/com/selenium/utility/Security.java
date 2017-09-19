@@ -11,19 +11,29 @@ import java.util.Scanner;
 public class Security {
 
 
-    public static String encryt(String value){
+    public static String encryt(String value) {
 
-       byte[] encoded =  Base64.encodeBase64(value.getBytes());
-       String encrytedValue = new String(encoded);
-       return encrytedValue;
+        byte[] encoded = Base64.encodeBase64(value.getBytes());
+        String encrytedValue = new String(encoded);
+        return encrytedValue;
     }
 
-    public static String decryt(String value){
+    public static String decryt(String value) {
 
         byte[] decoded = Base64.decodeBase64(value.getBytes());
         String decrytedValue = new String(decoded);
         return decrytedValue;
 
+    }
+
+
+    public static String encrytScanner() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter the value : ");
+        String value = sc.nextLine();
+        byte[] encoded = Base64.encodeBase64(value.getBytes());
+        String encrytedValue = new String(encoded);
+        return encrytedValue;
     }
 
 
